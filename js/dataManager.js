@@ -1,8 +1,8 @@
-import MemberManager from '/js/memberManager.js';
-import NotificationManager from '/js/notifications.js';
-import ReceiptGenerator from '/js/receiptGenerator.js';
-import { adminSettings } from '/js/settings.js';
-import AuthService from '/js/authService.js';
+import MemberManager from './memberManager.js';
+import NotificationManager from './notifications.js';
+import ReceiptGenerator from './receiptGenerator.js';
+import { adminSettings } from './settings.js';
+import AuthService from './authService.js';
 
 const memberManager = new MemberManager();
 

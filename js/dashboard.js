@@ -1,4 +1,4 @@
-import NotificationManager from '/js/notifications.js';
+import NotificationManager from './notifications.js';
 
 // Store chart instances globally 
 let contributionsChart = null;

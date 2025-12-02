@@ -1,4 +1,4 @@
-import AuthService from '/js/authService.js';
+import AuthService from './authService.js';
 
 class ReceiptGenerator {
   static async printReceipt(data, type = 'contribution') {

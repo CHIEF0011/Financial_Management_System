@@ -30,8 +30,8 @@ export function applyThemeColors() {
   root.style.setProperty('--primary-color', adminSettings.primaryColor);
   root.style.setProperty('--secondary-color', adminSettings.secondaryColor);
   
-  // Apply to navbar
-  const navbar = document.querySelector('.navbar');
+  // Apply to navbar - update background color
+  const navbar = document.getElementById('mainNavbar');
   if (navbar) {
     navbar.style.backgroundColor = adminSettings.primaryColor;
   }
